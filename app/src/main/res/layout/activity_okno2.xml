@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OknoActivity2"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/odebrana_informacja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tu pojawi się informacja z okna głównego" />
+
+    <EditText
+        android:id="@+id/odpowiedz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:hint="Tu wprowadź odpowiedź" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wyślij odpowiedź"
+        android:onClick="wyslijOdpowiedz" />
+
+</LinearLayout>
